@@ -1,0 +1,15 @@
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/bin/Debug/net6.0/VisitorPlacementTool.ConsoleApp
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/bin/Debug/net6.0/VisitorPlacementTool.ConsoleApp.deps.json
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/bin/Debug/net6.0/VisitorPlacementTool.ConsoleApp.runtimeconfig.json
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/bin/Debug/net6.0/VisitorPlacementTool.ConsoleApp.dll
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/bin/Debug/net6.0/VisitorPlacementTool.ConsoleApp.pdb
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.csproj.AssemblyReference.cache
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.AssemblyInfoInputs.cache
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.AssemblyInfo.cs
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.dll
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/refint/VisitorPlacementTool.ConsoleApp.dll
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.pdb
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/VisitorPlacementTool.ConsoleApp.genruntimeconfig.cache
+/Users/teunhurkmans/RiderProjects/VisitorPlacementTool/VisitorPlacementTool.ConsoleApp/obj/Debug/net6.0/ref/VisitorPlacementTool.ConsoleApp.dll

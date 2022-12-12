@@ -33,4 +33,30 @@ public class Event
         
         return FilteredVisitorList;
     }
+
+    public void AddPreviousVisitorsToGroup(Event eventName, List<Visitor> previousVisitors)
+    {
+
+        while (previousVisitors.Count > 0)
+        {
+          
+                int i = previousVisitors[0].GroupId;
+                List<Visitor> group = new List<Visitor>();
+
+                foreach (Visitor visitor in previousVisitors.ToList())
+                {
+                    if (visitor.GroupId == i)
+                    {
+                        group.Add(visitor);
+
+                    }
+
+                    previousVisitors.RemoveAt(0);
+                }
+
+                eventName.AddGroup(group);
+            
+           
+        }
+    }
 }

@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPlacementTool.ConsoleApp", "VisitorPlacementTool.ConsoleApp\VisitorPlacementTool.ConsoleApp.csproj", "{77F1D026-0723-47DD-BEB0-9D341CF4B1D3}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPlacementTool.ConsoleApp", "VisitorPlacementTool.ConsoleApp\VisitorPlacementTool.ConsoleApp.csproj", "{77F1D026-0723-47DD-BEB0-9D341CF4B1D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,11 @@ Global
 		{77F1D026-0723-47DD-BEB0-9D341CF4B1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77F1D026-0723-47DD-BEB0-9D341CF4B1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77F1D026-0723-47DD-BEB0-9D341CF4B1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3420C0EF-D90E-4DAA-BD33-E07D2A81F8C4}
 	EndGlobalSection
 EndGlobal

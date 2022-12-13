@@ -20,6 +20,25 @@ namespace VisitorPlacementTool.ConsoleApp
             }
         }
 
+
+        //random datum functie
+        public static DateTime GetRandomDate(Event eventName)
+        {
+            // Set a limit on the number of days to generate a random date for.
+            int days = 28;
+
+            // Get the current date and time.
+            DateTime eventTime = eventName.EventDate;
+
+            // Generate a random number of days between 0 and the limit.
+            int randomDays = new Random().Next(days + 1);
+
+            // Subtract the random number of days from the current date and time.
+            return eventTime.AddDays(-randomDays);
+        }
+
+
+
         //methode die visitors uit een csv haalt en ze aanmaakt als visitor
         /*public List<Visitor> ReadVisitorInfo(string filePath, string eventName)
         {
@@ -49,7 +68,7 @@ namespace VisitorPlacementTool.ConsoleApp
                 {
                     string line = reader.ReadLine();
                     string[] values = line.Split(',');
-                    Visitor visitor = new Visitor(eventName, Convert.ToInt32(values[2]), Convert.ToInt32(values[0]), DateTime.Parse(values[1]), DateTime.Now);
+                    Visitor visitor = new Visitor(eventName, Convert.ToInt32(values[2]), Convert.ToInt32(values[0]), DateTime.Parse(values[1]), GetRandomDate(eventName));
                    
                     previousVisitors.Add(visitor);
                 }

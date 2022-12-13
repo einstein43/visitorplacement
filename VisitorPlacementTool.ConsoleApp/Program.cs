@@ -1,33 +1,16 @@
 ﻿using VisitorPlacementTool.ConsoleApp;
-//csvmanager aanmaken
+
 
 
 
 Event testEvent = new Event(DateTime.Today, 2);
+//csvmanager aanmaken
 visitorCsv csvManager = new visitorCsv();
-
 
 List<Visitor> previousVisitors = csvManager.GetPreviousRegisteredVisitorInfo(testEvent);
 
 //stop oude visitors in groepen
 testEvent.AddPreviousVisitorsToGroup(testEvent, previousVisitors);
-
-
-
-
-//vier visitors toevoegen aan CSV bestand
-
-
-/* visitorCsv csvManager = new visitorCsv();
-
-csvManager.SaveVisitorInfo(new Visitor(testEvent, 1, 1, new DateTime(2002, 12, 31),
-        new DateTime(2022, 12, 3)));
-csvManager.SaveVisitorInfo(new Visitor(testEvent, 1, 2, new DateTime(2015, 12, 31),
-    new DateTime(2022, 12, 2)));
-csvManager.SaveVisitorInfo(new Visitor(testEvent, 1, 3, new DateTime(2002, 12, 31),
-    new DateTime(2022, 9, 7)));
-csvManager.SaveVisitorInfo(new Visitor(testEvent, 1, 4, new DateTime(2002, 12, 31),
-    new DateTime(2022, 12, 12))); */
 
 Box box1 = new Box("A", 3, 10);
 Box box2 = new Box("B", 2, 5);

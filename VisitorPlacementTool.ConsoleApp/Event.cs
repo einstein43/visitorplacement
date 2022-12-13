@@ -23,16 +23,31 @@ public class Event
     public List<Visitor> FilterVisitors(List<List<Visitor>> listOfGroups)
     {
         List<Visitor> FullVisitorList = listOfGroups.SelectMany(x => x).OrderBy(x => x.RegistrationTime).ToList();;
-        for (int i = 0; i < _maxVisitors; i++)
+        for (int i = 0; i < _maxVisitors && i < _maxVisitors; i++)
         {
             if (FullVisitorList[i].RegistrationTime < _signupEndDate)
             {
                 FilteredVisitorList.Add(FullVisitorList[i]);
             }
         }
-        
         return FilteredVisitorList;
     }
+
+    private List<Visitor> OrderByAge(List<Visitor> visitorList)
+    {
+        visitorList.OrderBy(x => x.DateOfBirth);
+        foreach (Visitor visitor in visitorList)
+        {
+            if (visitorList[i].DateOfBirth + 18 >= DateTime.Now)
+            {
+
+            }
+
+        }
+
+            return visitorList;
+    }
+
 
     public void AddPreviousVisitorsToGroup(Event eventName, List<Visitor> previousVisitors)
     {
@@ -54,6 +69,7 @@ public class Event
                     previousVisitors.RemoveAt(0);
                 }
 
+                // voegt een visitor groep toe aan de lijst met groepen van een event
                 eventName.AddGroup(group);
             
            

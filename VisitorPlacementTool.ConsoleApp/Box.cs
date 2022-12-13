@@ -44,6 +44,7 @@ public class Box
     {
         foreach (Visitor visitor in visitors)
         {
+
             GetFirstFreeChair().AssignVisitor(visitor);
         }
     }
@@ -67,4 +68,23 @@ public class Box
 
         return null;
     }
+
+    public int GetFreeChairsInRow(int row)
+    {
+        int freeChairsCount = 0;
+            for (int i = 0; i < chairs.GetLength(1); i++)
+            {
+                if (chairs[row, i] == null && chairs[row, i].AssignedVisitor == null)
+                {
+                     freeChairsCount++;
+                }
+            }
+        return freeChairsCount;
+    }
+
+
+
+
+
+
 }

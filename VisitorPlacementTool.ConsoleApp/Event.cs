@@ -33,22 +33,6 @@ public class Event
         return FilteredVisitorList;
     }
 
-    private List<Visitor> OrderByAge(List<Visitor> visitorList)
-    {
-        visitorList.OrderBy(x => x.DateOfBirth);
-        foreach (Visitor visitor in visitorList)
-        {
-            if (visitorList[i].DateOfBirth + 18 >= DateTime.Now)
-            {
-
-            }
-
-        }
-
-            return visitorList;
-    }
-
-
     public void AddPreviousVisitorsToGroup(Event eventName, List<Visitor> previousVisitors)
     {
 
@@ -72,7 +56,10 @@ public class Event
                 // voegt een visitor groep toe aan de lijst met groepen van een event
                 eventName.AddGroup(group);
             
-           
         }
+
     }
+
+
+
 }
